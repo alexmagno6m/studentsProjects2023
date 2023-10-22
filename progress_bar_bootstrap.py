@@ -12,7 +12,6 @@ root.title("Progress Bar")
 root.minsize(200, 200)
 
 
-
 progressbar = Progressbar(root, orient=HORIZONTAL, length=100,
                           variable=progress,
                           bootstyle='danger')
